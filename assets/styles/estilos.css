@@ -1,0 +1,14 @@
+.fuente1{
+    font-family: "Caveat", cursive;
+}
+
+.fuente2{
+    font-family: "Protest Revolution", sans-serif;
+}
+
+.fondo{
+    background-image: url(../img/banner5.jpg);
+    padding: 25%;
+    background-attachment: fixed;
+    
+}
