@@ -11,6 +11,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./assets/styles/estilos.css">
+
 </head>
 <body>
     <header>
@@ -24,7 +31,6 @@
                   <a class="nav-link mx-5" aria-current="page" href="#">Proyectos</a>
                   <a class="nav-link mx-5" href="#">Contacto</a>
                   <a class="navbar-brand fuente1 mx-5" href="#">Sara Arango Sierra</a>
-                  <a class="nav-link mx-5" href="#">Formulario</a>
                   
                 </div>
               </div>
@@ -66,32 +72,49 @@
             </div>
           </section>
           <section class="container">
-            <div class="row justify-content-center ">
+            <div class="row justify-content-center p-2">
               <div class="col-4">
                
               </div>
               <div class="col-4">
                 
               </div>
-              <div class="foto">
-                <img src="./assets/img/foto1.jpeg" alt="" class="img-fluid" width="200" height="200">
+              <div class="col-4 my-5 text-end">
+                <img src="./assets/img/foto1.jpeg" alt="" class="img-fluid wow animate__animated animate__backInLeft" width="200" height="200">
 
               </div> 
               <section class="container my-5">
                 <div class="row">
                   <div class="col-6">
-                    <img src="./assets/img/aporte.jpg" alt="frailejon" class="img-fluid w-100">
+                    <img src="./assets/img/aporte.jpg" alt="frailejon" class="img-fluid w-100 ">
                    <h4 class="text-center fuente">Proyecto Frailejon</h4>
                   </div>
                   <div class="col-6">
-                    <img src="./assets/img/banner1.png" alt="restaurante" class="img-fluid w-100">
+                    <img src="./assets/img/banner1.png" alt="restaurante" class="img-fluid w-100 ">
                     <h4 class="text-center fuente2">Proyecto Restaurante</h4>
                   </div>
               </section>
             </div>
           </section>
+          <section class="container-fluid fondofuter p-5">
+            <div class="row">
+              <div class="col-6 text-start">
+                <p><i class="bi bi-telephone"></i>Telefono: (302) 835 96 09
+                   <i class="bi bi-whatsapp"></i> Whatsapp: (302) 835 96 09 </p>  
+                   </div>
+                   <div class="col-6 text-stars ">
+                    <p><i class="bi bi-instagram"></i> Instagram @sarisa91</p>
+                   </div>      
+                
+                
+                                
+              </div>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./src/controlles/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
 </body>
 </html>
